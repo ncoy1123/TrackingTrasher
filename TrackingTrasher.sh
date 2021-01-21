@@ -7,7 +7,6 @@ do
 R=$(($RANDOM%30))
 
 sleep $R
-  google-chrome $line
+  google-chrome --new-window $line
 
 done < $filename
-
