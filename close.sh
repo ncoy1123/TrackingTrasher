@@ -4,7 +4,6 @@ do
 
 sleep 20
 
-killall google-chrome
+killall chrome
 
 done
-
